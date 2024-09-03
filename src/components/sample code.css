@@ -1,0 +1,85 @@
+/* Navbar.css - Responsive code*/ 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000;
+  }
+  
+  .logo img {
+    width: 50px;
+  }
+  
+  .menu-icon {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .menu-icon .icon {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .icon.active {
+    transform: rotate(-45deg);
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-links li {
+    margin: 0 10px;
+  }
+  
+  .nav-links a, .nav-links .btn-primary, .nav-links .btn-secondary {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .btn-primary {
+    background-color: #7b2cff;
+    padding: 10px 20px;
+    border: none;
+  }
+  
+  .btn-secondary {
+    background-color: transparent;
+    border: 2px solid #7b2cff;
+    padding: 10px 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .menu-icon {
+      display: block;
+    }
+  
+    .nav-links {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      width: 100%;
+      background-color: #000;
+      opacity: 0;
+      transition: all 0.3s ease;
+      transform: translateX(100%);
+    }
+  
+    .nav-links.open {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  
+    .nav-links li {
+      margin: 15px 0;
+    }
+  }
+  

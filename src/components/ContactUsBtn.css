@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,400i,700");
+
+body {
+  font-family: Merriweather;
+  font-size: 16px;
+}
+
+#my-section {
+  position: relative;
+  width: 100%;
+}
+
+#wrap-cta {
+  position: absolute;
+  top: 50%;
+  left:-100px;
+  transform: translate(0, -50%);
+  opacity: 0;
+  width: 120px;
+}
+
+#wrap-cta.active {
+  z-index: 2;
+  transform: translate(-50%, -50%);
+  transition: transform 0.6s, opacity 0.6s;
+  opacity: 1;
+}
+
+/* #cta {
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  color: #f2f2f2;
+  background: transparent;
+  border: 2px solid;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: background 0.4s;
+} */
+
+svg {
+  display: none;
+  width: 100%;
+  height: 100vh;
+}
+
+svg.active {
+    display: block;
+    width: 100%;
+    height: 100vh;
+}
+
+.polymorph {
+  fill: #b66c8d;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#content {
+  transform: translateY(-50px);
+  opacity: 0;
+  color: #b66c8d;
+  transition: transform 0.6s 0.2s, opacity 0.6s 0.2s;
+}
+
+#content.active {
+  z-index: 4;
+  transform: translateY(0);
+  opacity: 1;
+}
+
+#close {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  color: #b66c8d;
+  background: transparent;
+  border: 2px solid;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: background 0.4s;
+}
+
+#close:hover {
+  background: rgba(182, 108, 141, 0.3);
+}
+
+.contactus-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    background-color: #6c63ff;
+  }
+  
+  .contactus-btn:hover {
+    background-color: #5a54e7;
+  }

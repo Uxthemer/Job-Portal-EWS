@@ -1,0 +1,174 @@
+/* Ensure to import any custom fonts you need at the top of the CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+.hero-section {
+ display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  text-align: center;
+  background-color: #000;
+  
+}
+
+.hero-content {
+    width: 50%;
+    max-width: 600px;
+    margin-right: 200px;
+}
+
+.hero-title {
+    font-size: 4rem;
+    font-weight: bold;
+    /* background: -webkit-linear-gradient(white, #888); */
+    background: linear-gradient(90deg, #f107a3 0%, #7b2ff7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+
+/* .hero-title span {
+  background: linear-gradient(90deg, #f107a3 0%, #7b2ff7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.btn-get-started {
+  background: linear-gradient(90deg, #f107a3 0%, #7b2ff7 100%);
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-story {
+  background: none;
+  border: 1px solid white;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.hero-graphic {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+  }
+
+.job-card-1, .job-card-2 {
+  position: absolute;
+  max-width: 150px;
+  animation: float 6s ease-in-out infinite;
+}
+
+.job-card-1 {
+  top: -10%;
+  left: -10%;
+  transform: rotate(-20deg);
+}
+
+.job-card-2 {
+  bottom: -10%;
+  right: -10%;
+  transform: rotate(10deg);
+}
+
+.hero-arrow {
+  position: absolute;
+  bottom: 30px;
+  width: 50px;
+  animation: bounce 2s infinite;
+}
+
+/* Spring Arrow */
+.spring-arrow {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #6c63ff;
+    animation: arrow-float 3s ease-in-out infinite;
+  }
+  
+  .spring-arrow svg {
+    width: 40px;
+    height: 40px;
+    display: block;
+  }
+  
+  /* Floating Animation */
+  @keyframes arrow-float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+@keyframes float {
+  0% { transform: translateY(0) rotate(-20deg); }
+  50% { transform: translateY(-20px) rotate(-20deg); }
+  100% { transform: translateY(0) rotate(-20deg); }
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 3rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .btn-get-started, .btn-story {
+    font-size: 0.875rem;
+    padding: 10px 20px;
+  }
+
+  .job-card-1, .job-card-2 {
+    max-width: 100px;
+  }
+
+  .hero-arrow {
+    width: 40px;
+  }
+}
+
+.hero-right-sec{
+    width: 600px;
+    height: 80vh;
+}
+
+.ews-logo-svg{
+        
+    width: 525px;
+    /* margin-left: -50px; */
+    height: 80vh;
+    background-image: url('../assets/img/logo-svg.svg');
+    background-size: cover;
+
+}

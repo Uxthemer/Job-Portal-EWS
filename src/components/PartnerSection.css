@@ -1,0 +1,35 @@
+.partner-outer-cont{
+  background: rgb(206,159,252);
+  background: linear-gradient(299deg, rgba(206,159,252,1) 0%, rgba(165,130,247,1) 50%, rgba(115,103,240,1) 100%);
+}
+.partner-section {
+    background: linear-gradient(135deg, #9161f7, #8e5ae9); /* Gradient colors matching the attached image */
+    padding: 2rem 0;
+    transform: skewY(-5deg);
+    position: relative;
+    overflow: hidden; /* Ensure any overflow is hidden */
+  }
+  
+  .partner-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transform: skewY(5deg); /* Counteract the skew of the section */
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .partner-logo {
+    max-height: 50px;
+    filter: brightness(0) invert(1);
+    font-size: 1.2rem;
+  }
+  
+  @media (max-width: 768px) {
+    .partner-container {
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+  }
+  

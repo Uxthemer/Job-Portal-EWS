@@ -1,0 +1,173 @@
+/* JobAlertsSection.css */
+
+.job-alerts-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #121212;
+    padding: 20px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .alerts-container {
+    width: 100%;
+    max-width: 450px;
+    margin-bottom: 20px;
+  }
+  
+  .alert-card {
+    background-color: #1e1e1e;
+    border-radius: 20px;
+    padding: 15px;
+  }
+  
+  .alert-header {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+  }
+  
+  .menu-icon {
+    width: 420px;
+    height: 45px;
+    background: linear-gradient(90deg, #a987ff, #8a65d6);
+    border-radius: 10px;
+  }
+  
+  .alert-content {
+    padding: 10px 0;
+  }
+  
+  .alert-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: -50px;
+    background-color: #000;
+    height: 45px;
+    border-radius: 15px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 5px;
+  }
+  
+  .alert-item input[type="checkbox"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #a987ff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .alert-item input[type="checkbox"]:checked {
+    background-color: #a987ff;
+  }
+  
+  .new-job {
+    color: #a0a0a0;
+    font-size: 0.85em;
+  }
+  
+  .progress-bars-sec {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    flex-wrap: wrap;
+    width: auto;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .progress-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 150px;
+    height: 30px;
+  }
+  
+  .progress-bar .bar {
+    width: 100%;
+    height: 5px;
+    background-color: #3a3a3a;
+    border-radius: 5px;
+  }
+  
+  .progress-bar .bar.filled {
+    background-color: #a987ff;
+  }
+  
+  .subscribe-section {
+    text-align: center;
+    max-width: 450px;
+    width: 100%;
+  }
+  
+  .subscribe-section h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  .subscribe-section .highlight {
+    color: #a987ff;
+  }
+  
+  .subscribe-section p {
+    color: #a0a0a0;
+    margin-bottom: 20px;
+  }
+  
+  .email-subscribe {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1e1e1e;
+    border-radius: 30px;
+    padding: 10px;
+  }
+  
+  .email-subscribe input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    color: #fff;
+    padding-left: 15px;
+    font-size: 1em;
+    outline: none;
+  }
+  
+  .email-subscribe input::placeholder {
+    color: #a0a0a0;
+  }
+  
+  .email-subscribe button {
+    background: linear-gradient(45deg, #a987ff, #8a65d6);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .email-subscribe button:hover {
+    background-color: #8a65d6;
+  }
+  
+  @media (min-width: 768px) {
+    .job-alerts-section {
+      flex-direction: row;
+      justify-content: space-around;
+      padding: 0 150px;
+      gap: 150px;
+    }
+  
+    .alerts-container, .subscribe-section {
+      /* max-width: 380px; */
+      width: 850px;
+    }
+  }
+  

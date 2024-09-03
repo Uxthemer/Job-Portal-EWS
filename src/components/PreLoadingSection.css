@@ -1,0 +1,49 @@
+/* PreLoader.css */
+.preloader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #000; /* Block background color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+  }
+  
+  .logo-wrapper {
+    animation: jitter 1.5s infinite;
+  }
+  
+  .preload-logo {
+    width: 100px;
+    height: 100px;
+    animation: ripple 2s infinite;
+  }
+  
+  @keyframes jitter {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    25% {
+      transform: translate(2px, -2px);
+    }
+    50% {
+      transform: translate(-2px, 2px);
+    }
+    75% {
+      transform: translate(2px, 2px);
+    }
+  }
+  
+  @keyframes ripple {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
