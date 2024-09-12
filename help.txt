@@ -1,0 +1,3 @@
+    "homepage":"https://uxthemer.github.io/Job-Portal-EWS/",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
