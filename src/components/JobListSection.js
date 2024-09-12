@@ -4,7 +4,7 @@ import './JobListSection.css';
 const JobListSection = () => {
   const jobs = [
     { title: 'UX Designer', company: 'Advoit Digital Agency', type: 'Fulltime', location: 'Onsite', salary: '$200K', applied: 24 },
-    { title: 'UX Designer', company: 'Advoit Digital Agency', type: 'Fulltime', location: 'Onsite', salary: '$200K', applied: 24 },
+    { title: 'Fitter', company: 'Advoit Digital Agency', type: 'Fulltime', location: 'Onsite', salary: '$200K', applied: 24 },
     { title: 'UX Designer', company: 'Advoit Digital Agency', type: 'Fulltime', location: 'Onsite', salary: '$200K', applied: 24 },
     { title: 'UX Designer', company: 'Advoit Digital Agency', type: 'Fulltime', location: 'Onsite', salary: '$200K', applied: 24 },
     { title: 'UX Designer', company: 'Advoit Digital Agency', type: 'Fulltime', location: 'Onsite', salary: '$200K', applied: 24 },
@@ -12,7 +12,7 @@ const JobListSection = () => {
   ];
 
   return (
-    <div className="job-list-section">
+    <div className="block job-list-section">
       <h2>Newest <span className="highlight">Jobs</span> For You</h2>
       <p>Get The Fastest Application So That Your Name Is Above Other Application</p>
       <div className="categories">
@@ -34,8 +34,8 @@ const JobListSection = () => {
               <h3>{job.title}</h3>
               <p>{job.company}</p>
             </div>
-            <button className="apply-button">Apply</button>
-            <p className="applied-info">{job.applied} Applied</p>
+            <button className="apply-button">More Details</button>
+            {/* <p className="applied-info">{job.applied} Applied</p> */}
           </div>
         ))}
       </div>

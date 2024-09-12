@@ -1,6 +1,6 @@
 .navbar {
-  background-color: #000;
-  padding: 0.5rem 9rem 0 9rem;
+  background-color: #ffffff;
+  padding: .5rem 9rem .5rem 9rem;
   width: 100%;
   z-index: 999;
   display: flex;
@@ -16,13 +16,14 @@
     justify-content: space-between;
     max-width: 1200px;
     width: 60%;
+    /* padding-bottom: 6px; */
   }
   
   .navbar-logo .logo {
-    height: 5rem;
+    height: 4rem;
     /* position: relative; */
     margin-bottom: 0px;
-    width: 5rem;
+    width: 10rem;
   }
   
   .navbar-menu {
@@ -36,13 +37,17 @@
   
   .navbar-link {
     text-decoration: none;
-    color: #fff;
+    color: #000;
     font-size: 1rem;
     transition: color 0.3s ease;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    cursor: pointer;
   }
   
   .navbar-link:hover {
-    color: #6c63ff;
+    color: #2926a4;
   }
   
   .navbar-buttons {

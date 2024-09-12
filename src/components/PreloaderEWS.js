@@ -9,7 +9,7 @@ const AnimatedLogo = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 6000); // 3-second loading
+    const timer = setTimeout(() => setLoading(false), 3000); // 3-second loading
     return () => clearTimeout(timer);
   }, []);
 

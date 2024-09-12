@@ -3,7 +3,7 @@ import './JobAlertsSection.css';
 
 const JobAlertsSection = () => {
   return (
-    <div className="job-alerts-section">
+    <div className="block job-alerts-section">
       <div className="alerts-container">
         <div className="alert-card">
           <div className="alert-header">
@@ -11,50 +11,50 @@ const JobAlertsSection = () => {
           </div>
           <div className="alert-content">
             <div className="alert-item">
-              <input type="checkbox" checked />
+              <input type="checkbox" checked readOnly />
               <span>Job a Alerts</span>
               <span className="new-job">1 new job for front end (fulltim..)</span>
             </div>
             <div className="progress-bars-sec">
               <div className="progress-bar">
-                <input type="checkbox" checked />
+                <input type="checkbox" checked readOnly />
                 <div className="bar"></div>
               </div>
               <div className="progress-bar">
-                <input type="checkbox" checked />
+                <input type="checkbox" checked readOnly />
                 <div className="bar filled"></div>
               </div>
               <div className="progress-bar">
-                <input type="checkbox" checked />
+                <input type="checkbox" checked readOnly />
                 <div className="bar"></div>
               </div>
               <div className="progress-bar">
-                <input type="checkbox" checked />
+                <input type="checkbox" checked readOnly />
                 <div className="bar filled"></div>
               </div>
             </div>
           </div>
           <div className="alert-content">
             <div className="alert-item">
-              <input type="checkbox" checked />
+              <input type="checkbox" checked readOnly />
               <span>Job a Alerts</span>
               <span className="new-job">1 new job for front end (fulltim..)</span>
             </div>
             <div className="progress-bars-sec">
               <div className="progress-bar">
-                <input type="checkbox" checked />
+                <input type="checkbox" checked readOnly />
                 <div className="bar"></div>
               </div>
               <div className="progress-bar">
-                <input type="checkbox" checked />
+                <input type="checkbox" checked readOnly />
                 <div className="bar filled"></div>
               </div>
               <div className="progress-bar">
-                <input type="checkbox" checked />
+                <input type="checkbox" checked readOnly />
                 <div className="bar"></div>
               </div>
               <div className="progress-bar">
-                <input type="checkbox" checked />
+                <input type="checkbox" checked readOnly />
                 <div className="bar filled"></div>
               </div>
             </div>

@@ -3,7 +3,7 @@ import './PartnerSection.css';
 
 const PartnerSection = () => {
     return (
-        <div className='partner-outer-cont'>
+        <div className='block partner-outer-cont'>
             <div className="partner-section">
                 <div className="partner-container">
                     <span className="partner-logo" >The Washington Post</span>
