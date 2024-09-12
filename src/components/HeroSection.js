@@ -3,7 +3,8 @@ import "./HeroSection.css";
 import jobCard1 from "../assets/img/job-card.png";
 import jobCard2 from "../assets/img/job-card.png";
 import arrow from "../assets/img/arrow.png";
-import heroAnim from "../assets/videos/hero.mp4";
+// import heroAnim from "../assets/videos/hero.mp4";
+import heroAnim from "../assets/videos/hero-1.mp4";
 //import ewslogosvg from "../assets/img/logo-svg.svg";
 import { ReactTyped } from 'react-typed';
 
