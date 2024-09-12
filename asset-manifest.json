@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/Job-Portal-EWS/static/css/main.84ed57bf.css",
-    "main.js": "/Job-Portal-EWS/static/js/main.33f06316.js",
+    "main.css": "/Job-Portal-EWS/static/css/main.d7f36e87.css",
+    "main.js": "/Job-Portal-EWS/static/js/main.048e79c4.js",
     "static/js/453.406a9024.chunk.js": "/Job-Portal-EWS/static/js/453.406a9024.chunk.js",
     "static/media/hero-1.mp4": "/Job-Portal-EWS/static/media/hero-1.e2b31dc75cb68ff8aab9.mp4",
+    "static/media/hero.mp4": "/Job-Portal-EWS/static/media/hero.d1cfd8219c9c277569e5.mp4",
     "static/media/logo-svg.svg": "/Job-Portal-EWS/static/media/logo-svg.30f7830e92799a901c04.svg",
-    "static/media/arrow.png": "/Job-Portal-EWS/static/media/arrow.e3adc316b416ca8cabfb.png",
-    "static/media/job-card.png": "/Job-Portal-EWS/static/media/job-card.e3adc316b416ca8cabfb.png",
     "static/media/logo-old.png": "/Job-Portal-EWS/static/media/logo-old.e3adc316b416ca8cabfb.png",
+    "static/media/bootstrap-icons.woff?": "/Job-Portal-EWS/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/Job-Portal-EWS/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "static/media/logo.png": "/Job-Portal-EWS/static/media/logo.01b22a56e3378300e287.png",
     "index.html": "/Job-Portal-EWS/index.html",
-    "main.84ed57bf.css.map": "/Job-Portal-EWS/static/css/main.84ed57bf.css.map",
-    "main.33f06316.js.map": "/Job-Portal-EWS/static/js/main.33f06316.js.map",
+    "main.d7f36e87.css.map": "/Job-Portal-EWS/static/css/main.d7f36e87.css.map",
+    "main.048e79c4.js.map": "/Job-Portal-EWS/static/js/main.048e79c4.js.map",
     "453.406a9024.chunk.js.map": "/Job-Portal-EWS/static/js/453.406a9024.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.84ed57bf.css",
-    "static/js/main.33f06316.js"
+    "static/css/main.d7f36e87.css",
+    "static/js/main.048e79c4.js"
   ]
 }
