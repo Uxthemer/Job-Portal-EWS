@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/Uxthemer/Job-Portal-EWS/static/css/main.e91303cc.css",
-    "main.js": "/Uxthemer/Job-Portal-EWS/static/js/main.34056fc1.js",
-    "static/js/453.406a9024.chunk.js": "/Uxthemer/Job-Portal-EWS/static/js/453.406a9024.chunk.js",
-    "static/media/logo-svg.svg": "/Uxthemer/Job-Portal-EWS/static/media/logo-svg.30f7830e92799a901c04.svg",
-    "static/media/arrow.png": "/Uxthemer/Job-Portal-EWS/static/media/arrow.e3adc316b416ca8cabfb.png",
-    "static/media/job-card.png": "/Uxthemer/Job-Portal-EWS/static/media/job-card.e3adc316b416ca8cabfb.png",
-    "static/media/logo.png": "/Uxthemer/Job-Portal-EWS/static/media/logo.01b22a56e3378300e287.png",
-    "index.html": "/Uxthemer/Job-Portal-EWS/index.html",
-    "main.e91303cc.css.map": "/Uxthemer/Job-Portal-EWS/static/css/main.e91303cc.css.map",
-    "main.34056fc1.js.map": "/Uxthemer/Job-Portal-EWS/static/js/main.34056fc1.js.map",
-    "453.406a9024.chunk.js.map": "/Uxthemer/Job-Portal-EWS/static/js/453.406a9024.chunk.js.map"
+    "main.css": "/Job-Portal-EWS/static/css/main.84ed57bf.css",
+    "main.js": "/Job-Portal-EWS/static/js/main.33f06316.js",
+    "static/js/453.406a9024.chunk.js": "/Job-Portal-EWS/static/js/453.406a9024.chunk.js",
+    "static/media/hero-1.mp4": "/Job-Portal-EWS/static/media/hero-1.e2b31dc75cb68ff8aab9.mp4",
+    "static/media/logo-svg.svg": "/Job-Portal-EWS/static/media/logo-svg.30f7830e92799a901c04.svg",
+    "static/media/arrow.png": "/Job-Portal-EWS/static/media/arrow.e3adc316b416ca8cabfb.png",
+    "static/media/job-card.png": "/Job-Portal-EWS/static/media/job-card.e3adc316b416ca8cabfb.png",
+    "static/media/logo-old.png": "/Job-Portal-EWS/static/media/logo-old.e3adc316b416ca8cabfb.png",
+    "static/media/logo.png": "/Job-Portal-EWS/static/media/logo.01b22a56e3378300e287.png",
+    "index.html": "/Job-Portal-EWS/index.html",
+    "main.84ed57bf.css.map": "/Job-Portal-EWS/static/css/main.84ed57bf.css.map",
+    "main.33f06316.js.map": "/Job-Portal-EWS/static/js/main.33f06316.js.map",
+    "453.406a9024.chunk.js.map": "/Job-Portal-EWS/static/js/453.406a9024.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e91303cc.css",
-    "static/js/main.34056fc1.js"
+    "static/css/main.84ed57bf.css",
+    "static/js/main.33f06316.js"
   ]
 }
