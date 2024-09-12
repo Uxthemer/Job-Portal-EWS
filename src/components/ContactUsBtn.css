@@ -97,15 +97,18 @@ svg.active {
 }
 
 .contactus-btn {
-    padding: 0.5rem 1rem;
-    border-radius: 25px;
-    text-decoration: none;
-    color: #fff;
-    font-size: 1rem;
-    transition: background-color 0.3s ease;
-    background-color: #6c63ff;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+  background-color: #22227f;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
   }
   
   .contactus-btn:hover {
-    background-color: #5a54e7;
+    background-color: #333152;
   }

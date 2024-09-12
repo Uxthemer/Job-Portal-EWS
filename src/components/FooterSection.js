@@ -1,10 +1,10 @@
 import React from 'react';
 import './FooterSection.css';
-import logo from '../assets/img/logo.png';
+import logo from '../assets/img/logo-old.png';
 
 const FooterSection = () => {
   return (
-    <footer className="footer-section">
+    <footer className="block footer-section">
       <div className="footer-content">
         <div className="footer-logo">
           <img src={logo} alt="Logo" />

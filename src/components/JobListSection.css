@@ -1,7 +1,7 @@
 /* JobListSection.css */
 .job-list-section {
-    background-color: #121212;
-    color: #fff;
+    background-color: #ffffff;
+    color: #00000;
     padding: 20px;
     font-family: Arial, sans-serif;
   }
@@ -13,12 +13,12 @@
   }
   
   .job-list-section .highlight {
-    color: #a987ff;
+    color: #1f56ff;
   }
   
   .job-list-section p {
     text-align: center;
-    color: #a0a0a0;
+    color: #000000;
     margin-bottom: 30px;
   }
   
@@ -30,13 +30,13 @@
   }
   
   .categories span {
-    color: #a0a0a0;
+    color: #000000;
     cursor: pointer;
   }
   
   .categories .active {
-    color: #a987ff;
-    border-bottom: 2px solid #a987ff;
+    color: #1f56ff;
+    border-bottom: 2px solid #1f56ff;
   }
   
   .job-cards {
@@ -47,15 +47,17 @@
     align-items: center;
     width: 50%;
     margin: auto;
+    
   }
   
   .job-card {
-    background-color: #1e1e1e;
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 10px;
     width: 300px;
     text-align: center;
     position: relative;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   }
   
   .job-info h3 {
@@ -67,6 +69,13 @@
     font-size: 0.9em;
     color: #a0a0a0;
   }
+
+  .job-type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
   
   .job-type span {
     display: inline-block;
@@ -75,7 +84,7 @@
   }
   
   .apply-button {
-    background-color: #a987ff;
+    background-color: #3f6aee;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -86,7 +95,7 @@
   }
   
   .apply-button:hover {
-    background-color: #8a65d6;
+    background-color: #174ef3;
   }
   
   .applied-info {

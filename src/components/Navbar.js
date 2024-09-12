@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.css'; // Import the CSS file for styling
-import logo from '../assets/img/logo.png';
+import logo from '../assets/img/logo-old.png';
 import ContactUs from '../components/ContactUsBtn';
 
 const Navbar = () => {
@@ -12,23 +12,24 @@ const Navbar = () => {
           </a>
         <ul className="navbar-menu">
           <li className="navbar-item">
-            <a href="#home" className="navbar-link">Job</a>
+            <a href="#home" className="navbar-link">Who are we </a>
           </li>
           <li className="navbar-item">
-            <a href="#about" className="navbar-link">Client</a>
+            <a href="#about" className="navbar-link">Jobs</a>
           </li>
           <li className="navbar-item">
-            <a href="#pricing" className="navbar-link">Services</a>
+            <a href="#pricing" className="navbar-link">Candidates</a>
           </li>
-          <li className="navbar-item">
+          {/* <li className="navbar-item">
             <a href="#features" className="navbar-link">About Us</a>
-          </li>
+          </li> */}
         </ul>
        
       </div>
       <div className="navbar-buttons">
           {/* <a href="/register" className="navbar-btn register-btn">Contact Us</a> */}
           <ContactUs className="navbar-btn register-btn"/>
+          
         </div>
     </nav>
   );

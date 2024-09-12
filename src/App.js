@@ -11,6 +11,7 @@ import PreLoader from './components/PreLoadingSection';
 import LogoAnimation from './components/LogoAnimation';
 import LogoTest from './components/logo-test';
 import PreloaderEWS from './components/PreloaderEWS';
+import './App.css'
 
 function App() {
   return (
@@ -21,12 +22,14 @@ function App() {
       {/* <PreLoader /> */}
       <Navbar />
       <HeroSection />
+
       <PartnerSection />
       <CompaniesSection />
-      <JobListSection/>
+      <JobListSection />
       <CategoriesSection />
-      <JobAlertsSection/>
+      <JobAlertsSection />
       <FooterSection />
+
     </div>
   );
 }

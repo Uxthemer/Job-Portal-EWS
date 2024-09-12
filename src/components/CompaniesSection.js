@@ -3,7 +3,7 @@ import './CompaniesSection.css';
 
 const CompaniesSection = () => {
   return (
-    <div className="companies-section">
+    <div className="block companies-section">
       <h2 className="companies-title">Work With Exciting Companies</h2>
       <p className="companies-subtitle">
         Join Exciting Companies and Work With The Best Teams To Realize Your Goals.

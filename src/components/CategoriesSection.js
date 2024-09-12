@@ -3,7 +3,7 @@ import './CategoriesSection.css';
 
 const CategoriesSection = () => {
   return (
-    <div className="categories-section">
+    <div className="block categories-section">
       <h2>
         Explore By <span className="highlight">Categories</span>
       </h2>
