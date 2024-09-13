@@ -21,7 +21,7 @@ const FooterSection = () => {
           </a>
         </div>
         <div className="footer-help">
-          <p>Need help? <a href="mailto:support@example.com">support@example.com</a></p>
+          <p>Need help? <a href="mailto:support@ews.com">support@example.com</a></p>
         </div>
       </div>
       <div className="footer-line"></div>
